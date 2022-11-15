@@ -1,0 +1,110 @@
+h1 
+{
+    color:darkcyan;
+    margin: 50px 600px;
+}
+
+h2 {
+    color: lightcyan;
+    margin: 50px;
+}
+
+
+body 
+{
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+a {
+    color: Black;
+}
+
+
+#lecture{
+    color: lightcyan;
+    margin: 50px 520px;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+#mail{margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#flècheretour{margin: 20px 50px;}
+
+#cover{margin: 70px 700px;}
+
+#flèchedroite{margin-left: 850px}
+
+
+
+/* Code du menu déroulant */
+
+#wrap {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: darkslateblue;
+}
+
+.navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #44444;
+}
+
+.navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/*.navbar li:hover,
+a:hover{background-color: #444444} (remettre si je veux les menus en surbrillance (mais léger décallage))*/
+
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+
+.navbar li ul li {
+    background-color: #444444;
+}
+
+.navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+}
+
+.navbar li ul li a: hover {
+    background-color: #a3a1a1;
+}
